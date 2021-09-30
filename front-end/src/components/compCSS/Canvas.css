@@ -1,0 +1,11 @@
+#canvas{
+
+    margin: 0;
+    border-style: none;
+    width: 95vw;
+    height: 95vh;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px rgba(0,0,0,.6);
+    /*background-color: rgb(0, 0, 0);*/
+
+}

@@ -1,0 +1,11 @@
+.InputField{
+    border-style: none;
+    font-size: 6vh;
+    border-radius: 20px;
+    box-shadow:inset 0px 0px 10px rgba(0,0,0,.6);
+
+}
+
+.InputField:focus{
+    outline: none;
+}

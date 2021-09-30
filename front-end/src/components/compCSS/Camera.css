@@ -1,0 +1,33 @@
+.vdo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 236, 68);
+    display: grid;
+    place-items: center;
+}
+
+
+
+.selectCamera{
+    position: absolute;
+    top: 10px;
+    left:10px;
+}
+
+.btn_camera_select{
+	position: absolute;
+	left: 70px;
+	top: 80px;
+    width: 200px;
+}
+
+.btn_camera_select:active{
+    outline: none;
+}
+
+.camerabackbtn{
+    position: absolute;
+    right:3vw;
+    top:4vh;
+}

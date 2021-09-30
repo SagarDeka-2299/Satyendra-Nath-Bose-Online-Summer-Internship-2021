@@ -1,0 +1,39 @@
+.AnsBox{
+    background-color:rgb(255, 211, 65); 
+    display: grid;
+    grid-template-columns: 60vw 5vw 30vw 5vw;
+    grid-template-areas: "expBox equalBox ansBox xBox";
+    min-height: 300px;
+    position: absolute;
+    top: 55vh;
+}
+
+.equal{
+    grid-area: equalBox;
+    display: grid;
+    align-items: center;
+    font-size: 24px;
+}
+.expressionbox{
+    grid-area: expBox;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+
+}
+
+.ansbox{
+    grid-area: ansBox;
+    display: grid;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+
+}
+
+.xbox{
+    display: grid;
+    align-items: start;
+    justify-items:end ;
+
+    grid-area: xBox;    
+}
